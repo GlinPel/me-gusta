@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 1.5rem;
+}
+p a{
+    color: rgb(27, 115, 187);
+    text-decoration: underline;
+}
+.container{
+    margin: 0 auto; 
+    max-width: 1000px;
+    width: 100%;
+}
+.header{
+    background-color: black;
+}
+
+.header h1{
+    color: white;
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+
+.main h2{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+.main-content{
+    display: flex;
+    gap: 2rem;
+}
+.main-content-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.main-content-right{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    gap: 1rem;
+}
+.person{
+    border: 3px solid black;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.person img{
+    width: 100px;
+}
+.person h3{
+    font-size: 2rem;
+}
+.card{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-top h3{
+    font-size: 1.8rem;
+}
+.card-top button{
+    font-size: 1.8rem;
+    background-color: #ffd966;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0px black;
+    padding: .2rem 1rem;
+    cursor: pointer;
+}
+.card-likes{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
